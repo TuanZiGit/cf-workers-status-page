@@ -12,8 +12,7 @@ crons = ["*/2 * * * *"]
 bucket = "out"
 entry-point = "./"
 
-# uncomment and adjust following if you are not using GitHub Actions
-#[env.production]
-#kv-namespaces = [{binding="KV_STATUS_PAGE", id="xxxx", preview_id=""}]
-#zone_id="xxx"
-#route="xxx"
+[env.production]
+kv-namespaces = [{binding="KV_STATUS_PAGE", id="34e9344ff8ea4dcb956b806a6c0ef37a", preview_id="34e9344ff8ea4dcb956b806a6c0ef37a"}]
+# zone_id="xxx"
+# route="xxx"
