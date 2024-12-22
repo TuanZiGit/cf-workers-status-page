@@ -1,12 +1,12 @@
 name = "cf-workers-status-page"
 workers_dev = true
-account_id = ""
+account_id = "06273ee58b8180671b35e57f15cc64ec"
 type = "webpack"
 webpack_config = "node_modules/flareact/webpack"
 compatibility_date = "2021-07-23"
 
 [triggers]
-crons = ["* * * * *"]
+crons = ["*/2 * * * *"]
 
 [site]
 bucket = "out"
